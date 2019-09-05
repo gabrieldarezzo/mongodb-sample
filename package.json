@@ -1,0 +1,30 @@
+{
+  "name": "mongodb-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel-node": "babel-node --presets=env",
+    "dev": "nodemon --exec npm run babel-node -- ./src/server.js",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrieldarezzo/mongodb-sample.git"
+  },
+  "author": "Gabriel Darezzo <darezzo.gabriel@gmail.com> (https://inwork.com.br/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrieldarezzo/mongodb-sample/issues"
+  },
+  "homepage": "https://github.com/gabrieldarezzo/mongodb-sample#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.12"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.19.2"
+  }
+}
